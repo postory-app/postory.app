@@ -20,14 +20,13 @@
     <meta name="twitter:title" content="POSTORY">
     <meta name="twitter:description" content="POSTORY 是傳遞溫度的明信片旅行社群App，我們將手機變成郵筒與藏寶圖，讓喜歡旅行的人在旅途中探索富有獨特而有特色的明信片，透過應用程式輕鬆寄收明信片，用別具意義的圖文來記錄、分享旅行的重要時刻與回憶。">
     <meta name="twitter:creator" content="@POSTORY">
-    <meta name="twitter:image" content="img/twitter-card.png">
+    <meta name="twitter:image" content="https://postory.app/img/twitter-card.png">
     <meta property="og:title" content="POSTORY">
     <meta property="og:type" content="Article">
     <meta property="og:url" content="https://postory.app/">
-    <meta property="og:image" content="img/fb-og-image.png">
+    <meta property="og:image" content="https://postory.app/img/fb-og-image.png">
     <meta property="og:description" content="POSTORY 是傳遞溫度的明信片旅行社群App，我們將手機變成郵筒與藏寶圖，讓喜歡旅行的人在旅途中探索富有獨特而有特色的明信片，透過應用程式輕鬆寄收明信片，用別具意義的圖文來記錄、分享旅行的重要時刻與回憶。">
     <meta property="og:site_name" content="POSTORY">
-    <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Poppins:wght@600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" media="all" href="css/app.min.css">
@@ -41,9 +40,28 @@
           viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
         }
       }
+      
+    </script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EVFZTSVTDE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EVFZTSVTDE');
+      
+    </script>
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TH3GVCT');
     </script>
   </head>
   <body>
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH3GVCT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <script>
       console.log(localStorage.getItem('darkMode'));
       if (localStorage.getItem('darkMode') === "on") {
@@ -58,9 +76,9 @@
       <header class="header">
         <div class="header__center center"><a class="header__logo" href="index.html"><img class="header__pic header__pic_dark" src="img/logo-dark.png" alt=""/><img class="header__pic header__pic_light" src="img/logo-light.png" alt=""/></a>
           <div class="header__wrapper">
-            <nav class="header__nav"><a class="header__link active" href="about-us.html">關於我們</a><a class="header__link" href="donate.html">支持我們 </a><a class="header__link" href="cooperate.html">成為合作商家</a><a class="header__link" href="contact.html">創作者招募計畫</a></nav>
+            <nav class="header__nav"><a class="header__link active" href="https://postory.app/about-us">關於我們</a><a class="header__link" href="https://postory.app/donate">支持我們 </a><a class="header__link" href="https://postory.app/cooperate">成為合作商家</a><a class="header__link" href="https://postory.app/creator">創作者招募計畫</a></nav>
             <picture class="header__preview">
-              <source media="(max-width: 767px)" srcset="img/header-pic-mobile@2x.png, img/header-pic-mobile@2x.png 2x"/><img srcset="img/header-pic@2x.png 2x" src="img/header-pic.png" alt=""/>
+              <source media="(max-width: 767px)" srcset="img/header-pic-mobile-se@2x.png, img/header-pic-mobile-se@2x.png 2x"/><img srcset="img/header-pic@2x.png 2x" src="img/header-pic.png" alt=""/>
             </picture>
           </div>
           <button class="header__burger"></button>
@@ -73,7 +91,7 @@
           <div class="about__category">明信片藉由紙本乘載故事、思想及心情，由郵票及郵戳印出異域文化及特色，等候寄件與收件的時間累積，創造出能真實感受的深刻回憶。明信片讓寄件者傳達獨一無二的心意，讓收件者感受實體交流的珍稀—在書桌前、房間裡、冰箱上，隨時都能體驗世上的片刻風景與記憶。</div>
           <div class="about__category">在數位化的時代裡，我們能用科技的力量，讓明信片的傳遞做些什麼改變，來增進人與人之間有溫度的交流?</div>
           <div class="about__category"><br></div>
-          <div class="about__preview about__corner"><img srcset="img/team.jpg 2x" src="img/figures-8.png" alt=""></div>
+          <div class="about__preview"><img srcset="img/team.png 2x" src="img/team.png" alt=""></div>
           <h5 class="about__subtitle h5" data-aos="animation-scale-top" data-aos-duration="600">POSTORY，讓訊息傳遞更具溫度及價值</h5>
           <div class="about__category">我們應用科技結合明信片與社群概念，創造一個以人情味、溫度交流為核心的社交平台，提供用戶便捷的紙本/數位訊息交流服務，同時保留實體紙本溫度，創造有趣的線上交流探索與線下的感受體驗。</div>
           <div class="about__category">你的故事、你的生活靈感、你的生命探索，每天會是什麼樣貌呢? 歡迎你加入這個溫暖的社群，一起展開你的故事探索。</div>
@@ -118,7 +136,7 @@
                 <div class="about__post">App Engineer</div>
               </div>
               <div class="about__user">
-                <div class="about__ava"><img src="img/8-yden.png" alt=""></div>
+                <div class="about__ava"><img src="img/8-ayden.png" alt=""></div>
                 <div class="about__name">Ayden</div>
                 <div class="about__post">Product Designer</div>
               </div>
@@ -138,16 +156,17 @@
               <div class="footer__text">隨拍隨寄，溫度傳遞</div>
             </div>
             <div class="footer__line">
-              <div class="footer__nav"><a class="footer__link active" href="about-us.html">關於我們</a><a class="footer__link" href="donate.html">支持我們</a><a class="footer__link" href="cooperate.html">成為合作商家</a><a class="footer__link" href="contact.html">創作者招募計畫</a></div>
+              <div class="footer__downloads"><a class="footer__download google_play_download" href="https://play.google.com/store/apps/details?id=app.postory.postory" target="_blank"><img class="google_play_download" src="img/google-play.svg" alt=""/></a><a class="footer__download app_store_download" href="https://apps.apple.com/tw/app/postory-%E9%9A%A8%E6%8B%8D%E9%9A%A8%E5%AF%84-%E6%BA%AB%E5%BA%A6%E5%82%B3%E9%81%9E/id1584916129" target="_blank"><img class="app_store_download" src="img/app-store.svg" alt=""/></a></div>
+              <div class="footer__nav"><a class="footer__link active" href="https://postory.app/about-us">關於我們</a><a class="footer__link" href="https://postory.app/donate">支持我們 </a><a class="footer__link" href="https://postory.app/cooperate">成為合作商家</a><a class="footer__link" href="https://postory.app/creator">創作者招募計畫</a></div>
             </div>
           </div>
           <div class="footer__bottom">
-            <div class="footer__copyright">© 2022 POSTORY, Inc.</div>
-            <div class="footer__termsbox"><a class="footer__terms" href="termsofuse.html" target="_blank">使用者條款 </a><a class="footer__terms">及 </a><a class="footer__terms" href="privacy.html" target="_blank">隱私權政策</a></div>
-            <div class="footer__social"><a class="footer__link" href="https://www.facebook.com/postoryapp" target="_blank">
+            <div class="footer__copyright">© 2022 POSTORY, Inc. <span style="font-weight:lighter; padding-left:8px;">Designed by Garrick</span></div>
+            <div class="footer__termsbox"><a class="footer__terms" href="https://postory.app/termsofuse" target="_blank">使用者條款 </a><a class="footer__terms">及 </a><a class="footer__terms" href="https://postory.app/privacy" target="_blank">隱私權政策</a></div>
+            <div class="footer__social"><a class="footer__link fb_cta" href="https://www.facebook.com/postoryapp" target="_blank">
                 <svg class="icon icon-facebook">
                   <use xlink:href="#icon-facebook"></use>
-                </svg></a><a class="footer__link" href="https://www.instagram.com/postory.app/" target="_blank">
+                </svg></a><a class="footer__link ig_cta" href="https://www.instagram.com/postory.app/" target="_blank">
                 <svg class="icon icon-instagram">
                   <use xlink:href="#icon-instagram"></use>
                 </svg></a></div>

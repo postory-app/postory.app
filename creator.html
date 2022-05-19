@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>創作者招募計畫</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="POSTORY 是傳遞溫度的明信片旅行社群App，我們將手機變成郵筒與藏寶圖，讓喜歡旅行的人在旅途中探索富有獨特而有特色的明信片，透過應用程式輕鬆寄收明信片，用別具意義的圖文來記錄、分享旅行的重要時刻與回憶。">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@POSTORY">
+    <meta name="twitter:title" content="POSTORY">
+    <meta name="twitter:description" content="POSTORY 是傳遞溫度的明信片旅行社群App，我們將手機變成郵筒與藏寶圖，讓喜歡旅行的人在旅途中探索富有獨特而有特色的明信片，透過應用程式輕鬆寄收明信片，用別具意義的圖文來記錄、分享旅行的重要時刻與回憶。">
+    <meta name="twitter:creator" content="@POSTORY">
+    <meta name="twitter:image" content="https://postory.app/img/twitter-card.png">
+    <meta property="og:title" content="POSTORY">
+    <meta property="og:type" content="Article">
+    <meta property="og:url" content="https://postory.app/">
+    <meta property="og:image" content="https://postory.app/img/fb-og-image.png">
+    <meta property="og:description" content="POSTORY 是傳遞溫度的明信片旅行社群App，我們將手機變成郵筒與藏寶圖，讓喜歡旅行的人在旅途中探索富有獨特而有特色的明信片，透過應用程式輕鬆寄收明信片，用別具意義的圖文來記錄、分享旅行的重要時刻與回憶。">
+    <meta property="og:site_name" content="POSTORY">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Poppins:wght@600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="css/app.min.css">
+    <script>
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+        if (screen.width < 375) {
+          var newScale = screen.width / 375;
+          viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+        } else {
+          viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+        }
+      }
+      
+    </script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EVFZTSVTDE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EVFZTSVTDE');
+      
+    </script>
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TH3GVCT');
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TH3GVCT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+      console.log(localStorage.getItem('darkMode'));
+      if (localStorage.getItem('darkMode') === "on") {
+      		document.body.classList.add("dark");
+      		document.addEventListener("DOMContentLoaded", function() {
+      			document.querySelector('.js-switch-theme input').checked = true;
+      		});
+      }
+      
+    </script>
+    <div class="page">
+      <header class="header">
+        <div class="header__center center"><a class="header__logo" href="index.html"><img class="header__pic header__pic_dark" src="img/logo-dark.png" alt=""/><img class="header__pic header__pic_light" src="img/logo-light.png" alt=""/></a>
+          <div class="header__wrapper">
+            <nav class="header__nav"><a class="header__link" href="https://postory.app/about-us">關於我們</a><a class="header__link" href="https://postory.app/donate">支持我們 </a><a class="header__link" href="https://postory.app/cooperate">成為合作商家</a><a class="header__link active" href="https://postory.app/creator">創作者招募計畫</a></nav>
+            <picture class="header__preview">
+              <source media="(max-width: 767px)" srcset="img/header-pic-mobile-se@2x.png, img/header-pic-mobile-se@2x.png 2x"/><img srcset="img/header-pic@2x.png 2x" src="img/header-pic.png" alt=""/>
+            </picture>
+          </div>
+          <button class="header__burger"></button>
+        </div>
+      </header>
+      <div class="contact">
+        <div class="contact__center center">
+          <div class="offer">
+            <div class="offer__center center">
+              <div class="offer__container">
+                <h2 class="offer__title h1" data-aos="animation-scale-top" data-aos-duration="600">POSTORY 創作者招募計畫</h2>
+                <div class="offer__info">你是滿懷熱情、夢想的插畫家或設計師嗎?</div>
+                <div class="offer__info">與我們一起畫出台灣各個角落的美好，用喜歡的方式分享同時賺取報酬</div><a href="https://www.surveycake.com/s/KNwDR" target="_blank">
+                  <button class="share__btn btn btn_border creator_cta_1">立即申請成為創作者 🎨</button></a>
+                <div class="offer__preview"><img srcset="img/figures-8@2x.png 2x" src="img/figures-8.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages">
+            <div class="advantages__center center">
+              <div class="advantages__head">
+                <div class="advantages__photo" data-aos="animation-scale-top" data-aos-duration="600" data-aos-delay="400"><img srcset="img/figures@2x.png 2x" src="img/figures.png" alt=""></div>
+                <h2 class="advantages__title h2" data-aos="animation-scale-top" data-aos-duration="600"> 成為 POSTORY 創作者</h2>
+              </div>
+              <div class="advantages__list">
+                <div class="advantages__item">
+                  <div class="advantages__bg">
+                    <div class="advantages__preview">
+                      <video class="advantages__video" autoplay="" playsinline="" muted="" loop="" preload="" poster="img/creator_feature-1.png">
+                        <source src="img/creator_feature-1.mp4" type="video/mp4">
+                        <source src="img/creator_feature-1.webm" type="video/webm">
+                      </video>
+                    </div>
+                  </div>
+                  <div class="advantages__wrap">
+                    <div class="advantages__info" data-aos="animation-scale-top" data-aos-duration="800" data-aos-delay="400">持續創作不再只是夢想</div>
+                    <div class="advantages__text">將你的創作做成明信片，放上POSTORY明信片商店，讓全世界的用戶購買寄送。</div>
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <div class="advantages__bg">
+                    <div class="advantages__preview">
+                      <video class="advantages__video" autoplay="" playsinline="" muted="" loop="" preload="" poster="img/creator_feature-2.png">
+                        <source src="img/creator_feature-2.mp4" type="video/mp4">
+                        <source src="img/creator_feature-2.webm" type="video/webm">
+                      </video>
+                    </div>
+                  </div>
+                  <div class="advantages__wrap">
+                    <div class="advantages__info" data-aos="animation-scale-top" data-aos-duration="800" data-aos-delay="400">創作交給你，剩下交給POSTORY</div>
+                    <div class="advantages__text">您再也不需要像其他電商平台一樣處理最費時的客服與出貨，也不用擔心在個人社群上販售還要用人工表單收單和核對匯款，透過 POSTORY ，你只要專心創作，剩下的都成為全數位體驗，超簡單、無煩惱!</div>
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <div class="advantages__bg">
+                    <div class="advantages__preview">
+                      <video class="advantages__video" autoplay="" playsinline="" muted="" loop="" preload="" poster="img/creator_feature-3.png">
+                        <source src="img/creator_feature-3.mp4" type="video/mp4">
+                        <source src="img/creator_feature-3.webm" type="video/webm">
+                      </video>
+                    </div>
+                  </div>
+                  <div class="advantages__wrap">
+                    <div class="advantages__info" data-aos="animation-scale-top" data-aos-duration="800" data-aos-delay="400">全新的收益方式，好的創作帶來的長尾效應</div>
+                    <div class="advantages__text">每銷售一張明信片即可可獲得 50% 的分潤，創作者的明信片被用戶以實體明信片方式寄出時，每張可再獲得寄送費用 10% 的分潤；寄得越多，收入越多。</div>
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <div class="advantages__bg">
+                    <div class="advantages__preview">
+                      <video class="advantages__video" autoplay="" playsinline="" muted="" loop="" preload="" poster="img/creator_feature-4.png">
+                        <source src="img/creator_feature-4.mp4" type="video/mp4">
+                        <source src="img/creator_feature-4.webm" type="video/webm">
+                      </video>
+                    </div>
+                  </div>
+                  <div class="advantages__wrap">
+                    <div class="advantages__info" data-aos="animation-scale-top" data-aos-duration="800" data-aos-delay="400">為 POSTORY 的合作店家提供明信片設計與推廣服務</div>
+                    <div class="advantages__text">POSTORY 合作店家需要創作者的優質創作，讓店家的品牌跟空間訴說美麗的故事。<br>加入 POSTORY 將有機會為合作店家創作並於您的社群 (不限於 POSTORY ) 分享作品並為店家宣傳，讓設計成為更有價值，更讓你一躍成為設計插畫領域的全新KOL。</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="download">
+            <div class="download__center center">
+              <div class="download__body">
+                <h3 class="download__subtitle h3" data-aos="animation-scale-top" data-aos-duration="600">無粉絲門檻，滿滿的創作力都能加入!</h3>
+                <div class="download__list"><a class="download__item">
+                    <div class="download__icon">
+                      <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 3C5.68629 3 3 5.68629 3 9V22.5C3 25.8137 5.68629 28.5 9 28.5H16.875V31.875H13.5C12.8787 31.875 12.375 32.3787 12.375 33C12.375 33.6213 12.8787 34.125 13.5 34.125H22.5C23.1213 34.125 23.625 33.6213 23.625 33C23.625 32.3787 23.1213 31.875 22.5 31.875H19.125V28.5H27C30.3137 28.5 33 25.8137 33 22.5V9C33 5.68629 30.3137 3 27 3H9ZM18 9C19.6569 9 21 10.3431 21 12C21 13.6569 19.6569 15 18 15C16.3431 15 15 13.6569 15 12C15 10.3431 16.3431 9 18 9ZM12 20.25C12 19.0074 13.0074 18 14.25 18H21.75C22.9926 18 24 19.0074 24 20.25C24 21.4926 22.9926 22.5 21.75 22.5H14.25C13.0074 22.5 12 21.4926 12 20.25Z" fill="#28303F"></path>
+                      </svg>
+                    </div>
+                    <div class="download__category">設計師</div></a><a class="download__item">
+                    <div class="download__icon">
+                      <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0192 32.7038C8.16289 31.3214 3 25.2636 3 18C3 9.71573 9.71573 3 18 3C26.2843 3 33 9.71573 33 18C33 22.1542 31.3113 25.914 28.5828 28.6303C27.0046 30.2015 24.6667 28.8269 24.6667 26.5999V24.6667C24.6667 22.8257 23.1743 21.3333 21.3333 21.3333C19.4924 21.3333 18 22.8257 18 24.6667V30C18 31.6569 16.6433 33.0313 15.0192 32.7038ZM14.25 9C15.4926 9 16.5 10.0074 16.5 11.25C16.5 12.4926 15.4926 13.5 14.25 13.5C13.0074 13.5 12 12.4926 12 11.25C12 10.0074 13.0074 9 14.25 9ZM27.75 15C27.75 13.7574 26.7426 12.75 25.5 12.75C24.2574 12.75 23.25 13.7574 23.25 15C23.25 16.2426 24.2574 17.25 25.5 17.25C26.7426 17.25 27.75 16.2426 27.75 15ZM12 21C13.2426 21 14.25 22.0074 14.25 23.25C14.25 24.4926 13.2426 25.5 12 25.5C10.7574 25.5 9.75 24.4926 9.75 23.25C9.75 22.0074 10.7574 21 12 21Z" fill="#28303F"></path>
+                      </svg>
+                    </div>
+                    <div class="download__category">插畫家</div></a><a class="download__item">
+                    <div class="download__icon">
+                      <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.6094 5.8359L10.5 9H9C5.68629 9 3 11.6863 3 15V25.5C3 28.8137 5.68629 31.5 9 31.5H27C30.3137 31.5 33 28.8137 33 25.5V15C33 11.6863 30.3137 9 27 9H25.5L23.3906 5.8359C22.8342 5.0013 21.8975 4.5 20.8944 4.5H15.1056C14.1025 4.5 13.1658 5.0013 12.6094 5.8359ZM22.5 20.25C22.5 22.7353 20.4853 24.75 18 24.75C15.5147 24.75 13.5 22.7353 13.5 20.25C13.5 17.7647 15.5147 15.75 18 15.75C20.4853 15.75 22.5 17.7647 22.5 20.25ZM18 10.5C18.8284 10.5 19.5 9.82843 19.5 9C19.5 8.17157 18.8284 7.5 18 7.5C17.1716 7.5 16.5 8.17157 16.5 9C16.5 9.82843 17.1716 10.5 18 10.5Z" fill="#28303F"></path>
+                      </svg>
+                    </div>
+                    <div class="download__category">攝影師</div></a><a class="download__item">
+                    <div class="download__icon">
+                      <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5 9H25.5C27.1569 9 28.5 7.65685 28.5 6C28.5 4.34315 27.1569 3 25.5 3H10.5C8.84315 3 7.5 4.34315 7.5 6C7.5 7.65685 8.84315 9 10.5 9Z" fill="#28303F"></path>
+                        <path d="M7.91692 16.9923L9.77991 11.2011C10.0153 11.2334 10.2557 11.2501 10.5 11.2501H25.5C25.7443 11.2501 25.9847 11.2334 26.2201 11.2011L28.0831 16.9923C28.8284 18.8744 28.5644 20.9718 27.3714 22.6453L19.4278 32.2891C19.3397 32.4127 19.2376 32.5202 19.125 32.6115V20.7819C20.2244 20.3369 21 19.259 21 18C21 16.3431 19.6569 15 18 15C16.3431 15 15 16.3431 15 18C15 19.259 15.7756 20.3369 16.875 20.7819V32.6115C16.7624 32.5202 16.6603 32.4127 16.5722 32.2891L8.62857 22.6453C7.43561 20.9718 7.17158 18.8744 7.91692 16.9923Z" fill="#28303F"></path>
+                      </svg>
+                    </div>
+                    <div class="download__category">文字創作者<br>(手寫字)</div></a><a class="download__item">
+                    <div class="download__icon">
+                      <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.25 4.5C4.00736 4.5 3 5.50736 3 6.75V9.375H7.5V6.75C7.5 5.50736 6.49264 4.5 5.25 4.5Z" fill="#28303F"></path>
+                        <path d="M3 11.625V26.5C3 27.7982 3.42107 29.0614 4.2 30.1L4.65 30.7C4.95 31.1 5.55 31.1 5.85 30.7L6.3 30.1C7.07893 29.0614 7.5 27.7982 7.5 26.5V11.625H3Z" fill="#28303F"></path>
+                        <path d="M12 27C12 24.5147 14.0147 22.5 16.5 22.5H33V27C33 29.4853 30.9853 31.5 28.5 31.5H16.5C14.0147 31.5 12 29.4853 12 27Z" fill="#28303F"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M28.5 4.5H16.5C14.0147 4.5 12 6.51472 12 9V21.9688C13.1942 20.8999 14.7712 20.25 16.5 20.25H33V9C33 6.51472 30.9853 4.5 28.5 4.5ZM18 7.875C17.3787 7.875 16.875 8.37868 16.875 9C16.875 9.62132 17.3787 10.125 18 10.125H27C27.6213 10.125 28.125 9.62132 28.125 9C28.125 8.37868 27.6213 7.875 27 7.875H18ZM16.875 15C16.875 14.3787 17.3787 13.875 18 13.875H22.5C23.1213 13.875 23.625 14.3787 23.625 15C23.625 15.6213 23.1213 16.125 22.5 16.125H18C17.3787 16.125 16.875 15.6213 16.875 15Z" fill="#28303F"></path>
+                      </svg>
+                    </div>
+                    <div class="download__category">手帳</div></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="creator">
+            <div class="creator__center center">
+              <div class="creator__wrap">
+                <div class="creator__info" data-aos="animation-scale-top" data-aos-duration="600"><span>☀</span> POSTORY 合作創作者</div>
+                <div class="creator__team">
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/zeroseventwentysix/" target="_blank"><img src="img/creator-8.png" alt=""></a></div>
+                    <div class="creator__name">0726</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/ctrl.___z/" target="_blank"><img src="img/creator-18.png" alt=""></a></div>
+                    <div class="creator__name">50000</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/chen_chen_2020" target="_blank"><img src="img/creator-5.png" alt=""></a></div>
+                    <div class="creator__name">Chen Studio<br>陳陳工作室</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/imcpg0508" target="_blank"><img src="img/creator-10.png" alt=""></a></div>
+                    <div class="creator__name">CPG Illustration</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/little_story_house" target="_blank"><img src="img/creator-12.png" alt=""></a></div>
+                    <div class="creator__name">Do²</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/from_gracielou/" target="_blank"><img src="img/creator-16.png" alt=""></a></div>
+                    <div class="creator__name">From Grace</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.facebook.com/huadabii0610" target="_blank"><img src="img/creator-2.png" alt=""></a></div>
+                    <div class="creator__name">Huadabii<br>花大鼻小文青</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/messy_garden" target="_blank"><img src="img/creator-3.png" alt=""></a></div>
+                    <div class="creator__name">Messy Garden</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://ninghongdesign.com/" target="_blank"><img src="img/creator-20.png" alt=""></a></div>
+                    <div class="creator__name">NING HONG</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.facebook.com/oaostudio" target="_blank"><img src="img/creator-19.png" alt=""></a></div>
+                    <div class="creator__name">OAO - studio</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/nuo11.7" target="_blank"><img src="img/creator-21.png" alt=""></a></div>
+                    <div class="creator__name">nuo wu</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/twsarainmx" target="_blank"><img src="img/creator-7.png" alt=""></a></div>
+                    <div class="creator__name">Sara</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://instagram.com/ssssseventeen" target="_blank"><img src="img/creator-13.png" alt=""></a></div>
+                    <div class="creator__name">Tina Hsieh</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/vegetable_yee/" target="_blank"><img src="img/creator-22.png" alt=""></a></div>
+                    <div class="creator__name">Vegetable_yee</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://elwing94.wixsite.com/jiuillus" target="_blank"><img src="img/creator-23.png" alt=""></a></div>
+                    <div class="creator__name">九韭</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://jiayi.life/illustration/" target="_blank"><img src="img/creator-24.png" alt=""></a></div>
+                    <div class="creator__name">兔子洞裡的 Alice</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.behance.net/s2001900516506" target="_blank"><img src="img/creator-25.png" alt=""></a></div>
+                    <div class="creator__name">兔茶</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/bobocala.05" target="_blank"><img src="img/creator-6.png" alt=""></a></div>
+                    <div class="creator__name">啵啵手繪</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://houy15894702.wixsite.com/design" target="_blank"><img src="img/creator-14.png" alt=""></a></div>
+                    <div class="creator__name">喵貞子</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.facebook.com/YuanLianshan" target="_blank"><img src="img/creator-1.png" alt=""></a></div>
+                    <div class="creator__name">圓臉shan</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/yi_der_ds/" target="_blank"><img src="img/creator-11.png" alt=""></a></div>
+                    <div class="creator__name">太原a路花</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/gan.dau_/" target="_blank"><img src="img/creator-4.png" alt=""></a></div>
+                    <div class="creator__name">干豆</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.facebook.com/chercher29" target="_blank"><img src="img/creator-15.png" alt=""></a></div>
+                    <div class="creator__name">找找。Chercher Illustration</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/xingyesen/" target="_blank"><img src="img/creator-26.png" alt=""></a></div>
+                    <div class="creator__name">星野森</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/parttime_543" target="_blank"><img src="img/creator-17.png" alt=""></a></div>
+                    <div class="creator__name">普妹</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/apple8901118/" target="_blank"><img src="img/creator-27.png" alt=""></a></div>
+                    <div class="creator__name">假.魚</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/xyz45665/" target="_blank"><img src="img/creator-28.png" alt=""></a></div>
+                    <div class="creator__name">腐竹</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.facebook.com/Belovedstepheart/" target="_blank"><img src="img/creator-9.png" alt=""></a></div>
+                    <div class="creator__name">腳心</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://www.instagram.com/omgtheykillre/" target="_blank"><img src="img/creator-29.png" alt=""></a></div>
+                    <div class="creator__name">阿一 RE</div>
+                  </div>
+                  <div class="creator__user">
+                    <div class="creator__ava"><a href="https://applecat903.wixsite.com/mau0216/copy-of-%E6%8F%92%E5%9C%96-illustration" target="_blank"><img src="img/creator-30.png" alt=""></a></div>
+                    <div class="creator__name">阿毛</div>
+                  </div>
+                </div><br>
+<br>
+<br><a href="https://www.surveycake.com/s/KNwDR" target="_blank">
+                  <button class="share__btn btn btn_border creator_cta_2">立即申請成為創作者 🎨</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer__center center">
+          <div class="footer__body">
+            <div class="footer__wrap"><a class="footer__logo" href="index.html"><img class="footer__pic footer__pic_dark" src="img/logo-dark.png" alt=""/><img class="footer__pic footer__pic_light" src="img/logo-light.png" alt=""/></a>
+              <div class="footer__text">隨拍隨寄，溫度傳遞</div>
+            </div>
+            <div class="footer__line">
+              <div class="footer__downloads"><a class="footer__download google_play_download" href="https://play.google.com/store/apps/details?id=app.postory.postory" target="_blank"><img class="google_play_download" src="img/google-play.svg" alt=""/></a><a class="footer__download app_store_download" href="https://apps.apple.com/tw/app/postory-%E9%9A%A8%E6%8B%8D%E9%9A%A8%E5%AF%84-%E6%BA%AB%E5%BA%A6%E5%82%B3%E9%81%9E/id1584916129" target="_blank"><img class="app_store_download" src="img/app-store.svg" alt=""/></a></div>
+              <div class="footer__nav"><a class="footer__link" href="https://postory.app/about-us">關於我們</a><a class="footer__link" href="https://postory.app/donate">支持我們 </a><a class="footer__link" href="https://postory.app/cooperate">成為合作商家</a><a class="footer__link active" href="https://postory.app/creator">創作者招募計畫</a></div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__copyright">© 2022 POSTORY, Inc. <span style="font-weight:lighter; padding-left:8px;">Designed by Garrick</span></div>
+            <div class="footer__termsbox"><a class="footer__terms" href="https://postory.app/termsofuse" target="_blank">使用者條款 </a><a class="footer__terms">及 </a><a class="footer__terms" href="https://postory.app/privacy" target="_blank">隱私權政策</a></div>
+            <div class="footer__social"><a class="footer__link fb_cta" href="https://www.facebook.com/postoryapp" target="_blank">
+                <svg class="icon icon-facebook">
+                  <use xlink:href="#icon-facebook"></use>
+                </svg></a><a class="footer__link ig_cta" href="https://www.instagram.com/postory.app/" target="_blank">
+                <svg class="icon icon-instagram">
+                  <use xlink:href="#icon-instagram"></use>
+                </svg></a></div>
+          </div>
+        </div>
+        <label class="switch js-switch-theme">
+          <input class="switch__input" type="checkbox"/><span class="switch__in"><span class="switch__box"></span><span class="switch__icon switch__icon_dark">
+              <svg class="icon icon-dark">
+                <use xlink:href="#icon-dark"></use>
+              </svg></span><span class="switch__icon switch__icon_light">
+              <svg class="icon icon-light">
+                <use xlink:href="#icon-light"></use>
+              </svg></span></span>
+        </label>
+      </div>
+      <div class="popup mfp-hide" id="popup-sign-up">
+        <div class="popup__title h2">Sign up</div>
+        <div class="popup__variants"><a class="popup__variant" href="#"><img src="img/google.svg" alt="">Sign up via Google</a><a class="popup__variant" href="#"><img src="img/apple.svg" alt="">Sign up via Apple</a></div>
+        <div class="popup__details">Or continue with email</div>
+        <div class="popup__btns"><a class="popup__btn btn btn_dark js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Enter your email</a><a class="popup__btn btn btn_orange js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Continue</a></div>
+        <div class="popup__note">By clicking the Continue button, you agree to the terms of service and privacy policy.</div>
+      </div>
+      <div class="popup mfp-hide" id="popup-sign-in">
+        <div class="popup__title h2">Sign in</div>
+        <div class="popup__variants"><a class="popup__variant" href="#"><img src="img/google.svg" alt="">Sign up via Google</a><a class="popup__variant" href="#"><img src="img/apple.svg" alt="">Sign up via Apple</a></div>
+        <div class="popup__details">Or continue with email & password</div>
+        <div class="popup__btns"><a class="popup__btn btn btn_dark js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Enter your email</a><a class="popup__btn btn btn_dark js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Password</a><a class="popup__btn btn btn_orange js-popup-open" href="#popup-code" data-effect="mfp-zoom-in">Sign In</a></div>
+        <div class="popup__note"> </div>
+      </div>
+    </div>
+    <!-- scripts-->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/svg4everybody.min.js"></script>
+    <script src="js/lib/owl.carousel.min.js"></script>
+    <script src="js/lib/jquery.magnific-popup.min.js"></script>
+    <script src="js/lib/aos.js"></script>
+    <script src="js/app.js"></script>
+    <!-- svg sprite-->
+    <div style="display: none"><svg width="0" height="0">
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" id="icon-arrow-down">
+<path d="M6.939 9.311a1.5 1.5 0 0 0 2.121 0l6.5-6.5A1.5 1.5 0 1 0 13.439.689L8 6.129 2.561.689a1.5 1.5 0 0 0-2.121 0 1.5 1.5 0 0 0 0 2.121l6.5 6.5z"></path>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-twitter">
+<path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1a3.24 3.24 0 0 0 3.1 2.3C3.8 12.5 2.4 13 .8 13H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"></path>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 12" id="icon-play">
+<path d="M8 6a.78.78 0 0 0-.285-.614L1.049.135C.846-.025.579-.043.359.084S0 .47 0 .749v10.501c0 .28.138.536.359.665s.487.11.69-.051l6.667-5.25c.179-.14.285-.369.285-.614z"></path>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 23" id="icon-light">
+<path d="M12 5a7 7 0 0 1 7 7c0 2.716-1.564 5.132-3.932 6.286h0l-.068.031V22a1 1 0 0 1-.883.993h0L14 23h-4a1 1 0 0 1-1-1h0v-3.682l-.068-.032c-2.29-1.116-3.827-3.411-3.927-6.016h0L5 12a7 7 0 0 1 7-7zm0 2a5 5 0 0 0-5 5c0 2.133 1.351 4.007 3.334 4.708a1 1 0 0 1 .666.943h0V21h2v-3.349a1 1 0 0 1 .551-.893h0l.116-.049C15.649 16.007 17 14.133 17 12a5 5 0 0 0-5-5zm-9 4a1 1 0 0 1 .117 1.993L3 13H1a1 1 0 0 1-.117-1.993L1 11h2zm20 0a1 1 0 0 1 .117 1.993L23 13h-2a1 1 0 0 1-.117-1.993L21 11h2zM4.836 3.431l.094.083 1.414 1.414a1 1 0 0 1-1.32 1.497l-.094-.083-1.414-1.414a1 1 0 0 1 1.32-1.497zm15.649.083a1 1 0 0 1 .083 1.32l-.083.094-1.414 1.414a1 1 0 0 1-1.497-1.32l.083-.094 1.414-1.414a1 1 0 0 1 1.414 0zM12 0a1 1 0 0 1 .993.883L13 1v2a1 1 0 0 1-1.993.117L11 3V1a1 1 0 0 1 1-1z"></path>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-instagram">
+<path d="M12.146 4.852a.96.96 0 1 0 0-1.92.96.96 0 1 0 0 1.92zM8 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4 10H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zM4 2c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2H4z"></path>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-facebook">
+<path d="M16 8.048A8 8 0 0 0 11.35.781a8 8 0 0 0-8.546 1.181 8 8 0 0 0-2.504 8.256 8 8 0 0 0 6.449 5.73V10.36H4.719V8.048H6.75V6.285a2.82 2.82 0 0 1 .781-2.264 2.82 2.82 0 0 1 2.24-.848c.6.008 1.199.06 1.791.156V5.3h-1.008c-.172-.022-.346-.006-.511.048s-.315.145-.44.265-.221.267-.282.429-.084.336-.068.508v1.5h2.219l-.355 2.312H9.25v5.591A8 8 0 0 0 16 8.048z"></path>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon-dark">
+<path d="M8 2.3c.4-.1.7 0 1 .3s.4.7.3 1C9.1 4.4 9 5.2 9 6a8.96 8.96 0 0 0 9 9c.8 0 1.6-.1 2.4-.3a.96.96 0 0 1 .9.2c.3.3.4.7.3 1C20.3 20.7 15.9 24 11 24A10.97 10.97 0 0 1 0 13C0 8.1 3.3 3.7 8 2.3zM21 6a.94.94 0 0 1 1 1h0v1h1a.94.94 0 0 1 1 1 .94.94 0 0 1-1 1h0-1v1a.94.94 0 0 1-1 1 .94.94 0 0 1-1-1h0v-1h-1a.94.94 0 0 1-1-1 .94.94 0 0 1 1-1h1V7a.94.94 0 0 1 1-1zm-6-6a.94.94 0 0 1 1 1h0v1h1a.94.94 0 0 1 1 1 .94.94 0 0 1-1 1h0-1v1a.94.94 0 0 1-1 1 .94.94 0 0 1-1-1h0V4h-1a.94.94 0 0 1-1-1 .94.94 0 0 1 1-1h1V1a.94.94 0 0 1 1-1z"></path>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" id="icon-arrow-prev">
+<path d="M9.207.293a1 1 0 0 1 .083 1.32l-.083.094L3.914 7H39.5v2H3.914l5.293 5.293a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.083l-.094-.083-7-7a1 1 0 0 1-.083-1.32l.083-.094 7-7a1 1 0 0 1 1.414 0z"></path>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" id="icon-arrow-next">
+<path d="M30.793 15.707a1 1 0 0 1-.083-1.32l.083-.094L36.086 9H.5V7h35.586l-5.293-5.293a1 1 0 0 1-.083-1.32l.083-.094a1 1 0 0 1 1.32-.083l.094.083 7 7a1 1 0 0 1 .083 1.32l-.083.094-7 7a1 1 0 0 1-1.414 0z"></path>
+</symbol>
+    </div>
+  </body>
+</html>
