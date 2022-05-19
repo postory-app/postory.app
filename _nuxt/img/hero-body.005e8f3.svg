@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="848" viewBox="0 0 1600 848">
+  <defs>
+    <linearGradient id="hero-cover-a" x1="-73.773%" x2="147.518%" y1="54.449%" y2="44.743%">
+      <stop offset=".046%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E4FFFF"/>
+    </linearGradient>
+    <linearGradient id="hero-cover-b" x1="-78.867%" x2="152.271%" y1="66.437%" y2="40.959%">
+      <stop offset=".046%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E4FFFF"/>
+    </linearGradient>
+    <linearGradient id="hero-cover-c" x1="-12.35%" x2="220.047%" y1="56.347%" y2="35.146%">
+      <stop offset=".046%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E4FFFF"/>
+    </linearGradient>
+    <linearGradient id="hero-cover-d" x1="-35.844%" x2="191.118%" y1="55.069%" y2="39.122%">
+      <stop offset=".046%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E4FFFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" opacity=".05">
+    <path fill="url(#hero-cover-a)" d="M154.018,0 L40.593,65.486 C9.494,83.441 13.394,114.804 49.304,135.537 L303.659,278.842 C339.569,299.575 393.891,301.826 424.99,283.871 L916.67,0 L154.018,0 Z"/>
+    <path fill="url(#hero-cover-b)" d="M1600,0 L1448.918,0 L1100.228,201.317 C1069.129,219.272 1073.029,250.635 1108.939,271.368 L1363.294,414.673 C1399.204,435.406 1453.527,437.658 1484.626,419.703 L1600,353.091 L1600,0 Z"/>
+    <path fill="url(#hero-cover-c)" d="M655.076,726.618 L868.897,847.086 C871.64,845.724 874.354,844.278 877.028,842.734 L1600,425.313 L1600,209.328 L1575.225,195.37 C1539.315,174.637 1484.993,172.386 1453.893,190.341 L646.365,656.567 C615.265,674.522 619.165,705.885 655.076,726.618 Z"/>
+    <path fill="url(#hero-cover-d)" d="M1078.434,118.533 C1109.533,100.578 1105.613,69.215 1069.703,48.482 L983.651,0 L521.067,0 L0,300.928 L0,421.082 L277.201,581.136 L1078.434,118.533 Z"/>
+  </g>
+</svg>
